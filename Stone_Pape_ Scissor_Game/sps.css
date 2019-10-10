@@ -1,0 +1,86 @@
+*{
+	padding:0px;
+	border:0px;
+	margin: 0px
+}
+body{
+		background-color:#161616; 
+}
+header{
+		background-color: white;
+		text-align: center;
+		padding:20px;
+		font-weight: bolder;
+		color: #1d1d1f;
+}
+.score_bord{
+	margin: 20px auto;
+	padding: 30px;
+	border:3px solid white;
+	border-radius: 3px;
+	width:200px;
+	font-size:75px;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+	font-size: 40px;
+	position: relative;
+}
+.score{
+	background-color: #c51919;
+	font-size: 14px;
+	padding:3px;
+}
+#user_score{
+	position:absolute;
+	top:40px;
+	left:-17px;
+}
+#computer_score{
+	position:absolute;
+	top:40px;
+	right:-35px;
+}
+.result{
+	color: white;
+	font-size: 40px;
+	text-align: center;
+	font-weight: bold;
+}
+#result{
+	color: #b4bac2;
+}
+.option{
+	text-align: center;
+	margin: 20px,40px;
+}
+.choice{
+	display: inline-block;
+	border:4px solid white;
+	border-radius: 5px;
+	padding: 15px;
+	margin: 10px;
+	background-color: #d17e00;
+	transition: all 0.5s ease;
+}
+#end{
+	text-align: center;
+	color: white;
+	font-size: 20px;
+}
+.choice:hover{
+	cursor: pointer;
+	background-color: #d44343;
+}
+.green_glow{
+	border: 3px solid #1eb607;
+	box-shadow: 0 0 10px #4dc73b;
+}
+.red_glow{
+	border: 3px solid #e50303;
+	box-shadow: 0 0 10px #ff0d0d;
+}
+.yellow_glow{
+	border: 3px solid #c57600;
+	box-shadow: 0 0 10px #ff9900;
+}
